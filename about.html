@@ -12,7 +12,7 @@
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
             padding: 20px;
             background-color: black;
             color: white;
@@ -20,17 +20,21 @@
         .text-container {
             flex: 1;
             margin-right: 20px;
+            margin-top: 20px;
             
         }
         .image-container {
-            flex: 2;
+            flex: 1;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
         }
         .image-container img {
-            width: 200px; /* Adjust image width as needed */
-            height: 300px; /* Maintain aspect ratio */
+            width: 250px; /* Adjust image width as needed */
+            margin-bottom: 10px;
+            margin-top: 20px;
+            height: auto; /* Maintain aspect ratio */
         }
     </style>
 </head>
