@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="brand-logo" href="#"><img src="assets/logo.png" alt=""></a>
+            <a class="brand-logo" href="#"><img src="assets/logo2.png" width="50" height="50" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -62,9 +62,37 @@
         </div>
     </div>
     
+    <section class="container py-5">
+        <div id="meals" class="row g-3"></div>
+        <p id="danger" class="lead text-danger text-center"><i class="fas fa-search"></i>Your Search Meal Is Not
+            Available On Our Listed <br />
+            Please enter valid Meal 🍕 name.</p>
+    </section>
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Meals Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="mealsDetails" class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Copyright &copy; 2024 All rights reserved | Made By <span class="icons icon-heart"></span>
+            <a target="_blank" href="https://tauhidhasan.xyz">Georgina Kabasa</a></p>
+    </footer>
     
 
-
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
 
     <script src="script2.js"></script>
 </body>
