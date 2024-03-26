@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
+</head>
+
+    <style>
+        /* CSS for layout */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .text-container {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .image-container img {
+            width: 100px; /* Adjust image width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="text-container">
+        <h1>About Us</h1>
+        <p>
+            Welcome to FlavorQuest, your ultimate destination for culinary inspiration and recipe discovery! At FlavorQuest, we believe that cooking should be an enjoyable adventure, full of delicious discoveries and satisfying flavors.
+        </p>
+        <p>
+            Our mission is to help you unleash your inner chef and explore the endless possibilities of home cooking.
+        </p>
+    </div>
+    <div class="image-container">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+        <img src="image4.jpg" alt="Image 4">
+    </div>
 </body>
 </html>
