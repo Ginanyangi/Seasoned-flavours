@@ -10,7 +10,7 @@
 <style>
     body {
       font-family: Arial, sans-serif;
-      background-color:white;
+      background-color:rgb(3, 32, 57);
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -19,7 +19,7 @@
       max-width: 600px;
       margin: 50px auto;
       padding: 20px;
-      background-color: #fff;
+      background-color:;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
@@ -41,7 +41,7 @@
       height: 150px;
     }
     input[type="submit"] {
-      background-color: #4caf50;
+      background-color: red;
       color: #fff;
       padding: 10px 20px;
       border: none;
@@ -49,27 +49,56 @@
       cursor: pointer;
     }
     input[type="submit"]:hover {
-      background-color: #45a049;
+      background-color: red;
     }
   </style>
 
 <body>
 
-     <div class="heading2 mt-5 mb-5 text-center text-info">
+  <nav class="navbar navbar-expand-lg navbar-danger bg-light">
+    <div class="container">
+        <a class="brand-logo" href="#"><img src="assets/logo.jpg" width="50" height="50" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a  class="nav-link" href="about.html">About </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+
+            
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+     <div class="heading2 mt-5 mb-5 text-center text-danger">
         <h1>Contact Us</h1>
      </div>
       
      
-    <form  action="https://formspree.io/f/xqkrykpy"
-     method="POST">
-     <label for="full-name">Full Name</label><br>
-      <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br>
-       <label for="email-address">Email Address</label><br>
-     <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br>
-     <label for="message">Message</label><br>
-     <textarea rows="5" width="70" name="message" id="message" placeholder=" Type Message" required=""></textarea>
-      <input type="hidden" name="_subject" id="email-sub">
-      <button id="myButton">Submit</button>
+    <form  action="https://formspree.io/f/xqkrykpy" method="POST">
+        <label for="name">Full Name</label>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <label for="Email">Email</label>
+        <input type="email" name="email" placeholder="Your Email" required>
+         <label for="Message"></label>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Submit">
+      
        
   
     </form> 
