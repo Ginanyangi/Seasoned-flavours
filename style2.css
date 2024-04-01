@@ -102,11 +102,11 @@ body {
     min-width: 130px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .input-form .input-field.second-wrap {
         min-width: 100px;
     }
-}
+} */
 
 .input-form .input-field.second-wrap .btn-search {
     height: 100%;
