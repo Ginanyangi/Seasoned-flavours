@@ -3,9 +3,9 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstati
 
 const firebaseConfig = {
   apiKey: "AIzaSyCW-UCdjztki3-GJVopZuuSWqRwDulY3tk",
-  authDomain: "Seasoned Flavours.firebaseapp.com",
-  projectId: "seasoned-flavours-login",
-  storageBucket: "seasoned-flavours-login.appspot.com",
+  authDomain: "login-ac099.firebaseapp.com",
+  projectId: "login-ac099",
+  storageBucket: "login-ac099.appspot.com",
   messagingSenderId: "327490224595",
   appId: "1:327490224595:web:7ddd4f79b4b753e33eef26"
 };
