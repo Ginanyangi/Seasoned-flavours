@@ -1,6 +1,46 @@
+.navbar {
+  background: linear-gradient(to right, #d00000, #9d0208);
+  box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+.navbar-brand {
+  color:#9d0208;
+  font-weight: bold;
+
+}
+
+.navabr-nav .nav-link {
+  color:#fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+color: black;
+background-color: rgba(255,255,255,0.2);
+}
+
+.navbar-toggler-icon {
+  background-color: #d90429; 
+}
+
+
+
 body {
     font-family: Arial, sans-serif;
-    background-color:black;
+    background-color:white;
     margin: 30;
     padding: 0;
     box-sizing: border-box;
@@ -36,7 +76,7 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  
+
   input[type="text"]:focus,
   input[type="email"]:focus,
   textarea:focus {
