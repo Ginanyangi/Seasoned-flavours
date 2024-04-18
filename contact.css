@@ -5,6 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
+
   .container {
     max-width: 100px;
     margin: 50%;
@@ -13,10 +14,18 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(3, 1, 1, 0.1);
   }
+
   h2 {
     text-align: center;
     margin-bottom: 20px;
   }
+
+  label {
+  font-weight: bold;
+  color: #fff;
+  }
+
+
   input[type="text"],
   input[type="email"],
   textarea {
@@ -27,6 +36,7 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
   }
+  
   input[type="text"]:focus,
   input[type="email"]:focus,
   textarea:focus {
