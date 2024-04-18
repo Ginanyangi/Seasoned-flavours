@@ -12,6 +12,18 @@
     box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
 .navbar-brand {
     color:#9d0208;
     font-weight: bold;
@@ -20,6 +32,7 @@
 
 .navabr-nav .nav-link {
     color:#fff;
+    text-decoration: none;
     font-weight: 500;
 }
 
